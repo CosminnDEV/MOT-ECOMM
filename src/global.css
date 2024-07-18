@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-unbounded: Unbounded;
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-220xl-8: 239.8px;
+  --font-size-41xl: 60px;
+  --font-size-77xl: 96px;
+
+  /* Colors */
+  --color-gray-100: rgba(255, 255, 255, 0.1);
+  --color-tomato: #ff5d2a;
+  --color-orangered-100: #e64512;
+  --color-orangered-200: rgba(230, 69, 18, 0.09);
+  --color-white: #fff;
+  --color-gainsboro: rgba(230, 230, 230, 0.1);
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-7xs: 6px;
+  --padding-sm: 14px;
+  --padding-16xl: 35px;
+  --padding-xs: 12px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+}

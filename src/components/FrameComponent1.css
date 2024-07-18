@@ -1,0 +1,84 @@
+.motorbike-helmet-1-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.414);
+}
+.wrapper-motorbike-helmet-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.motorbike-helmet-2-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.helmet-image {
+  height: 966.5px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -21.5px;
+  left: 0;
+}
+.helmet-image-wrapper {
+  height: 945px;
+  width: 967px;
+  margin: 0 !important;
+  position: absolute;
+  right: 364px;
+  bottom: -347px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unbounded1 {
+  margin: 0;
+}
+.frame-parent,
+.unbounded {
+  position: relative;
+  max-width: 100%;
+}
+.unbounded {
+  flex: 1;
+  display: inline-block;
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+.frame-parent {
+  width: 1714.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-220xl-8);
+  color: var(--color-tomato);
+  font-family: var(--font-unbounded);
+}
+@media screen and (max-width: 1050px) {
+  .unbounded {
+    font-size: var(--font-size-77xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .unbounded {
+    font-size: var(--font-size-41xl);
+  }
+}
